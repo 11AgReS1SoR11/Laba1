@@ -11,5 +11,6 @@ int main() {
 	printList(MyList);
 	FIRST(MyList);
 	SECOND(MyList);
+	list_free(MyList);
 	return 0;
 }
