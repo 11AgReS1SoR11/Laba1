@@ -10,7 +10,7 @@ struct Node {
 };
 
 void list_free(MyList);
-void printList(Listptr currentPtr);
+void PrintList(Listptr currentPtr);
 void FIRST(Listptr currentPtr);
 void SECOND(Listptr currentPtr);
-Listptr* ReadText(char const* filename);
+Listptr ReadText(char const* filename);
